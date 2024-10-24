@@ -744,6 +744,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-footer .copy-right > a {
   color: rgba(255, 255, 255, 0.6);
 }
+#fh5co-footer .credit {
+  position: relative;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 12px;
+}
 #fh5co-footer .contact-info {
   margin: 0 0 60px 0;
   padding: 0;

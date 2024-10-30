@@ -228,7 +228,19 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
+	<script type="text/javascript">
+		(function(d, t) {
+			var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+			v.onload = function() {
+			  window.voiceflow.chat.load({
+				verify: { projectID: '671d6662c3c7db11f8775110' },
+				url: 'https://general-runtime.voiceflow.com',
+				versionID: '671d6662c3c7db11f8775111'
+			  });
+			}
+			v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+		})(document, 'script');
+	  </script>
 	</body>
 </html>
 
